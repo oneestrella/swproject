@@ -32,6 +32,7 @@ int main(int argc, char*argv[])
 
 	while((nb=read(fd_in,buf,1))>0)
 	{
+/*
 		j=1;
 		for(i=0; buf[i] != '\0'; i++)
 
@@ -49,7 +50,10 @@ int main(int argc, char*argv[])
 			printf("%s 1",buf);
 		}
 
-		
+*/
+		for(i=0 ; buf[i] != '\0';i++)
+		{
+			if(buf[i]=='
 	}
 
 	lstat(argv[1],&sb);
